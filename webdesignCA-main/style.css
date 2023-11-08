@@ -90,7 +90,8 @@ ol,li {
     color:#424242;
 }
 
-@media screen and (max-width: 992px){
+/* inserting media query to make the website responsive.  */
+@media screen and (max-width: 992px){  
 
     .navbar-collapse{
         margin-left: -13px;
