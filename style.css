@@ -113,7 +113,7 @@ font-family: 'PT Serif', serif; */
 
     /* BUTTON */
 
-    .mbutton {font-family: 'Lora';
+    #mbutton, #mbutton2, #mbutton3 {font-family: 'Lora';
     color:green;
     margin-top:5px;
     background-color: transparent;
