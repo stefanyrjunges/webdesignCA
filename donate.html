@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability</title>
+
+    <!-- BOOTSTRAP CSS AND JAVASCRIPT -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Lora:wght@400;500&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- EXTERNAL JAVASCRIPT -->
+    <script defer src="script.js"></script> 
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR (BOOTSTRAP)-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join us</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="#">Game blabla</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- HEADER -->
+    <div class="headerhd">
+
+      <h1 class="donate">Support <b>sustainable</b> initiatives</h1>
+
+      <hr>
+      <div class="responsivetable">
+      <table>
+        <tr>
+          <th>
+            
+          <h1 class="statistics">90%</h1>
+
+          </th>
+
+          <th>
+
+          <h1 class="statistics">33%</h1>
+
+          </th>
+
+
+          <th>
+
+         <h1 class="statistics">1%</h1>
+
+          </th>
+
+        </tr>
+
+        <tr>
+          <td>of people globally breathe polluted air.
+            <br><button type="button" onclick="moreInfo()" id="mbutton"> + MORE </button>
+            <div id="minfo" style="display:none"> 
+
+              <!-- Added a function to the button so when it's clicked on, it displays the message below. Added display:none so it stays hidden until the function
+              is activated. -->
+              
+              <p class="pinfo">
+
+                Every year, about 7 million lives are lost globally due to air pollution, with a staggering 90% of these cases concentrated in low-income countries.
+
+              </p></div>
+          
+          </td>
+          <td>of arable land has been lost in the last 40 years.
+            <br><button type="button" onclick="moreInfo2();" id="mbutton2"> + MORE </button>
+            <div id="minfo2" style="display:none">
+              
+              <p class="pinfo">Approximately one-third of the Earth's soil has undergone degradation in the past four decades, primarily as a result of increasing food demand and intensive agricultural practices. </p></div>
+          
+          </td>
+          <td>of the water on Earth is safe for drinking.<br>
+            <button type="button" onclick="moreInfo3();" id="mbutton3"> + MORE </button>
+            <div id="minfo3" style="display:none">
+              
+              <p class="pinfo">
+                
+              More than 97% of the water on Earth is saltwater found in oceans and seas, and an additional 2% is locked in icecaps and glaciers. This leaves less than 1% of Earth's water available for consumption.
+
+              </p></div>
+        
+        </td>
+        </tr>
+
+      </table>
+      </div>
+
+        <br><br>
+
+      <p class="aboutd">These are just some of the statistics that underscore the importance of your donation towards our cause. Your contribution is a step towards a brigther and more sustainable future and we invite you to join us on this journey. By donating, you are directly investing in a greener and eco-friendlier planet. Your contributions support reforestation efforts, clean energy projects, environmental education, and more. Together, we can make a significant difference in the fight against climate change and environmental degradation and create a world where sustainable practices are the norm, not the exception.
+
+      <br><br>
+      
+      For more details on how to donate, please get in touch with us through the form on our "<u>Contact us</u>" page.</p>
+
+      
+      <p class="source">Source: <a href="https://seedscientific.com/environment/sustainability-statistics/#:~:text=Around%2090%25%20of%20people%20globally,world%20to%20have%20enough%20food." target="_blank">SeedScientific</a>,</p>
+
+      <p class="source"><a href="https://extension.psu.edu/the-water-we-drink" target="_blank">PennState Extension</a></p>
+    
+    </div>
+
+</body>
+</html>
